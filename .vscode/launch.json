@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Adapter/DucksConsoleApp Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/src/adapter/DucksConsoleApp/bin/Debug/netcoreapp1.0/DucksConsoleApp.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false
+        }
+    ]
+}
