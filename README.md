@@ -28,3 +28,8 @@
 * Principle of Least Knowledge: talk only to your immediate friends.
 * The Hollywood Principle: Don't call us, we'll call you.
 * A class should have only one reason to change.
+
+
+
+
+**You need [.NET Core](https://www.microsoft.com/net/core) to run these examples.**

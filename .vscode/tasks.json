@@ -5,8 +5,177 @@
     "args": [],
     "tasks": [
         {
-            "taskName": "build",
-            "args": ["./src/adapter/DucksConsoleApp/"],
+            "taskName": "build-adapter-ducks",
+            "suppressTaskName": true,
+            "args": ["build", "./src/adapter/Ducks/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-combined-ducksimulator",
+            "suppressTaskName": true,
+            "args": ["build", "./src/combined/DuckSimulator/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-command-party",
+            "suppressTaskName": true,
+            "args": ["build", "./src/command/Party/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-command-remotecontrol",
+            "suppressTaskName": true,
+            "args": ["build", "./src/command/RemoteControl/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-command-remotecontrolwithundo",
+            "suppressTaskName": true,
+            "args": ["build", "./src/command/RemoteControlWithUndo/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-command-simpleremotecontrol",
+            "suppressTaskName": true,
+            "args": ["build", "./src/command/SimpleRemoteControl/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-composite-menu",
+            "suppressTaskName": true,
+            "args": ["build", "./src/composite/Menu/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-composite-menuiterator",
+            "suppressTaskName": true,
+            "args": ["build", "./src/composite/MenuIterator/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-decorator-starbuzzcoffee",
+            "suppressTaskName": true,
+            "args": ["build", "./src/decorator/StarbuzzCofee/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-facade-hometheater",
+            "suppressTaskName": true,
+            "args": ["build", "./src/facade/HomeTheater/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-factory-pizzastoreabstractfactory",
+            "suppressTaskName": true,
+            "args": ["build", "./src/factory/PizzaStoreAbstractFactory/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-factory-pizzastorefactorymethod",
+            "suppressTaskName": true,
+            "args": ["build", "./src/factory/PizzaStoreFactoryMethod/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-factory-pizzastoresimplefactory",
+            "suppressTaskName": true,
+            "args": ["build", "./src/factory/PizzaStoreSimpleFactory/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-iterator-dinermerger",
+            "suppressTaskName": true,
+            "args": ["build", "./src/iterator/DinerMerger/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-iterator-dinermergercafe",
+            "suppressTaskName": true,
+            "args": ["build", "./src/iterator/DinerMergerCafe/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-observer-weatherstation",
+            "suppressTaskName": true,
+            "args": ["build", "./src/observer/WeatherStation/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-observer-weatherstation.observable",
+            "suppressTaskName": true,
+            "args": ["build", "./src/observer/WeatherStation.Observable/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-singleton-chocolateboiler",
+            "suppressTaskName": true,
+            "args": ["build", "./src/singleton/ChocolateBoiler/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-singleton-multiplesingleton",
+            "suppressTaskName": true,
+            "args": ["build", "./src/singleton/MultipleSingleton/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-state-gumball",
+            "suppressTaskName": true,
+            "args": ["build", "./src/state/Gumball/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-state-gumballstate",
+            "suppressTaskName": true,
+            "args": ["build", "./src/state/GumballState/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-state-gumballstatewinner",
+            "suppressTaskName": true,
+            "args": ["build", "./src/state/GumballStateWinner/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-strategy-miniducksimulator",
+            "suppressTaskName": true,
+            "args": ["build", "./src/strategy/MiniDuckSimulator/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-templatemethod-barista",
+            "suppressTaskName": true,
+            "args": ["build", "./src/templatemethod/Barista/"],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "build-templatemethod-ducksort",
+            "suppressTaskName": true,
+            "args": ["build", "./src/templatemethod/DuckSort/"],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"
         }

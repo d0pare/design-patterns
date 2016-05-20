@@ -1,5 +1,4 @@
-﻿using SimpleRemoteControl.Commands;
-using SimpleRemoteControl.Receivers;
+﻿using SimpleRemoteControl.Receivers;
 
 namespace SimpleRemoteControl.Commands
 {
