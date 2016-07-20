@@ -2,20 +2,20 @@
 
 
 ## OO Patterns
-* [Strategy](/src/strategy/README.md)
-* [Observer](/src/observer/README.md)
-* [Decorator](/src/decorator/README.md)
-* [Factory Method](/src/factory/README.md)
-* [Abstract Factory](/src/factory/README.md)
-* [Singleton](/src/singleton/README.md)
-* [Command](/src/command/README.md)
-* [Adapter](/src/adapter/README.md)
-* [Facade](/src/facade/README.md)
-* [Template Method](/src/templatemethod/README.md)
-* [Iterator](/src/iterator/README.md)
-* [Composite](/src/composite/README.md)
-* [State](/src/state/README.md)
-* [Proxy](/src/proxy/README.md)
+* [Strategy](/src/strategy)
+* [Observer](/src/observer)
+* [Decorator](/src/decorator)
+* [Factory Method](/src/factory)
+* [Abstract Factory](/src/factory)
+* [Singleton](/src/singleton)
+* [Command](/src/command)
+* [Adapter](/src/adapter)
+* [Facade](/src/facade)
+* [Template Method](/src/templatemethod)
+* [Iterator](/src/iterator)
+* [Composite](/src/composite)
+* [State](/src/state)
+* [Proxy](/src/proxy)
 
 ## OO Principles
 
@@ -32,4 +32,4 @@
 
 
 
-**You need [.NET Core](https://www.microsoft.com/net/core) to run these examples.**
+**You need [.NET Core](https://www.dot.net) to run these examples.**
