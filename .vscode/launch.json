@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-adapter-ducks",
-            "program": "${workspaceRoot}/src/adapter/Ducks/bin/Debug/netcoreapp1.0/Ducks.dll",
+            "program": "${workspaceRoot}/src/adapter/Ducks/bin/Debug/netcoreapp2.0/Ducks.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -16,7 +16,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-combined-ducksimulator",
-            "program": "${workspaceRoot}/src/combined/DuckSimulator/bin/Debug/netcoreapp1.0/DuckSimulator.dll",
+            "program": "${workspaceRoot}/src/combined/DuckSimulator/bin/Debug/netcoreapp2.0/DuckSimulator.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -26,7 +26,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-command-party",
-            "program": "${workspaceRoot}/src/command/Party/bin/Debug/netcoreapp1.0/Party.dll",
+            "program": "${workspaceRoot}/src/command/Party/bin/Debug/netcoreapp2.0/Party.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -36,7 +36,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-command-remotecontrol",
-            "program": "${workspaceRoot}/src/command/RemoteControl/bin/Debug/netcoreapp1.0/RemoteControl.dll",
+            "program": "${workspaceRoot}/src/command/RemoteControl/bin/Debug/netcoreapp2.0/RemoteControl.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -46,7 +46,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-command-remotecontrolwithundo",
-            "program": "${workspaceRoot}/src/command/RemoteControlWithUndo/bin/Debug/netcoreapp1.0/RemoteControlWithUndo.dll",
+            "program": "${workspaceRoot}/src/command/RemoteControlWithUndo/bin/Debug/netcoreapp2.0/RemoteControlWithUndo.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -56,7 +56,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-command-simpleremotecontrol",
-            "program": "${workspaceRoot}/src/command/SimpleRemoteControl/bin/Debug/netcoreapp1.0/SimpleRemoteControl.dll",
+            "program": "${workspaceRoot}/src/command/SimpleRemoteControl/bin/Debug/netcoreapp2.0/SimpleRemoteControl.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -66,7 +66,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-composite-menu",
-            "program": "${workspaceRoot}/src/composite/Menu/bin/Debug/netcoreapp1.0/Menu.dll",
+            "program": "${workspaceRoot}/src/composite/Menu/bin/Debug/netcoreapp2.0/Menu.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -76,7 +76,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-composite-menuiterator",
-            "program": "${workspaceRoot}/src/composite/MenuIterator/bin/Debug/netcoreapp1.0/MenuIterator.dll",
+            "program": "${workspaceRoot}/src/composite/MenuIterator/bin/Debug/netcoreapp2.0/MenuIterator.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -86,7 +86,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-decorator-starbuzzcoffee",
-            "program": "${workspaceRoot}/src/decorator/StarbuzzCoffee/bin/Debug/netcoreapp1.0/StarbuzzCoffee.dll",
+            "program": "${workspaceRoot}/src/decorator/StarbuzzCoffee/bin/Debug/netcoreapp2.0/StarbuzzCoffee.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -96,7 +96,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-facade-hometheater",
-            "program": "${workspaceRoot}/src/facade/HomeTheater/bin/Debug/netcoreapp1.0/HomeTheater.dll",
+            "program": "${workspaceRoot}/src/facade/HomeTheater/bin/Debug/netcoreapp2.0/HomeTheater.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -106,7 +106,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-factory-pizzastoreabstractfactory",
-            "program": "${workspaceRoot}/src/factory/PizzaStoreAbstractFactory/bin/Debug/netcoreapp1.0/PizzaStoreAbstractFactory.dll",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreAbstractFactory/bin/Debug/netcoreapp2.0/PizzaStoreAbstractFactory.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -116,7 +116,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-factory-pizzastorefactorymethod",
-            "program": "${workspaceRoot}/src/factory/PizzaStoreFactoryMethod/bin/Debug/netcoreapp1.0/PizzaStoreFactoryMethod.dll",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreFactoryMethod/bin/Debug/netcoreapp2.0/PizzaStoreFactoryMethod.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -126,7 +126,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-factory-pizzastoresimplefactory",
-            "program": "${workspaceRoot}/src/factory/PizzaStoreSimpleFactory/bin/Debug/netcoreapp1.0/PizzaStoreSimpleFactory.dll",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreSimpleFactory/bin/Debug/netcoreapp2.0/PizzaStoreSimpleFactory.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -136,7 +136,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-iterator-dinermerger",
-            "program": "${workspaceRoot}/src/iterator/DinerMerger/bin/Debug/netcoreapp1.0/DinerMerger.dll",
+            "program": "${workspaceRoot}/src/iterator/DinerMerger/bin/Debug/netcoreapp2.0/DinerMerger.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -146,7 +146,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-iterator-dinermergercafe",
-            "program": "${workspaceRoot}/src/iterator/DinerMergerCafe/bin/Debug/netcoreapp1.0/DinerMergerCafe.dll",
+            "program": "${workspaceRoot}/src/iterator/DinerMergerCafe/bin/Debug/netcoreapp2.0/DinerMergerCafe.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -156,7 +156,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-observer-weatherstation",
-            "program": "${workspaceRoot}/src/observer/WeatherStation/bin/Debug/netcoreapp1.0/WeatherStation.dll",
+            "program": "${workspaceRoot}/src/observer/WeatherStation/bin/Debug/netcoreapp2.0/WeatherStation.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -166,7 +166,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-observer-weatherstation.observable",
-            "program": "${workspaceRoot}/src/observer/WeatherStation.Observable/bin/Debug/netcoreapp1.0/WeatherStation.Observable.dll",
+            "program": "${workspaceRoot}/src/observer/WeatherStation.Observable/bin/Debug/netcoreapp2.0/WeatherStation.Observable.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -176,7 +176,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-singleton-chocolateboiler",
-            "program": "${workspaceRoot}/src/singleton/ChocolateBoiler/bin/Debug/netcoreapp1.0/ChocolateBoiler.dll",
+            "program": "${workspaceRoot}/src/singleton/ChocolateBoiler/bin/Debug/netcoreapp2.0/ChocolateBoiler.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -186,7 +186,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-singleton-multiplesingleton",
-            "program": "${workspaceRoot}/src/singleton/MultipleSingleton/bin/Debug/netcoreapp1.0/MultipleSingleton.dll",
+            "program": "${workspaceRoot}/src/singleton/MultipleSingleton/bin/Debug/netcoreapp2.0/MultipleSingleton.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -196,7 +196,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-state-gumball",
-            "program": "${workspaceRoot}/src/state/Gumball/bin/Debug/netcoreapp1.0/Gumball.dll",
+            "program": "${workspaceRoot}/src/state/Gumball/bin/Debug/netcoreapp2.0/Gumball.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -206,7 +206,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-state-gumballstate",
-            "program": "${workspaceRoot}/src/state/GumballState/bin/Debug/netcoreapp1.0/GumballState.dll",
+            "program": "${workspaceRoot}/src/state/GumballState/bin/Debug/netcoreapp2.0/GumballState.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -216,7 +216,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-state-gumballstatewinner",
-            "program": "${workspaceRoot}/src/state/GumballStateWinner/bin/Debug/netcoreapp1.0/GumballStateWinner.dll",
+            "program": "${workspaceRoot}/src/state/GumballStateWinner/bin/Debug/netcoreapp2.0/GumballStateWinner.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -226,7 +226,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-strategy-miniducksimulator",
-            "program": "${workspaceRoot}/src/strategy/MiniDuckSimulator/bin/Debug/netcoreapp1.0/MiniDuckSimulator.dll",
+            "program": "${workspaceRoot}/src/strategy/MiniDuckSimulator/bin/Debug/netcoreapp2.0/MiniDuckSimulator.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -236,7 +236,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-templatemethod-barista",
-            "program": "${workspaceRoot}/src/templatemethod/Barista/bin/Debug/netcoreapp1.0/Barista.dll",
+            "program": "${workspaceRoot}/src/templatemethod/Barista/bin/Debug/netcoreapp2.0/Barista.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
@@ -246,7 +246,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-templatemethod-ducksort",
-            "program": "${workspaceRoot}/src/templatemethod/DuckSort/bin/Debug/netcoreapp1.0/DuckSort.dll",
+            "program": "${workspaceRoot}/src/templatemethod/DuckSort/bin/Debug/netcoreapp2.0/DuckSort.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false
