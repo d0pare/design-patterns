@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Menu</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Menu</PackageId>
+    <PackageTags>design pattern</PackageTags>
+    <PackageProjectUrl>https://github.com/dopare/design-patterns</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/dopare/design-patterns/license.md</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/dopare/design-patterns</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
