@@ -1,4 +1,4 @@
-using StarbuzzCoffee.Components;
+﻿using StarbuzzCoffee.Components;
 
 namespace StarbuzzCoffee.Components
 {
@@ -13,5 +13,7 @@ namespace StarbuzzCoffee.Components
         {
             return 1.99;
         }
+
+        public override Size size { get => base.size; set => base.size = value; }
     }
 }
