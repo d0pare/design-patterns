@@ -9,17 +9,48 @@ namespace StarbuzzCoffee
         public static void Main(string[] args)
         {
             Beverage beverage = new Espresso();
-            beverage.size = Beverage.Size.GRANDE;
             displayBeverage(beverage);
 
             Beverage beverage2 = new DarkRoast();
             beverage2.size = Beverage.Size.TALL;
+            displayBeverage(beverage2);
+
+            beverage2 = new Mocha(beverage2);
+            beverage2 = new Mocha(beverage2);
+            beverage2 = new Whip(beverage2);
+            displayBeverage(beverage2);
+
+            beverage2 = new DarkRoast();
+            beverage2.size = Beverage.Size.GRANDE;
+            beverage2 = new Mocha(beverage2);
+            beverage2 = new Mocha(beverage2);
+            beverage2 = new Whip(beverage2);
+            displayBeverage(beverage2);
+
+            beverage2 = new DarkRoast();
+            beverage2.size = Beverage.Size.VENTI;
             beverage2 = new Mocha(beverage2);
             beverage2 = new Mocha(beverage2);
             beverage2 = new Whip(beverage2);
             displayBeverage(beverage2);
 
             Beverage beverage3 = new HouseBlend();
+            beverage3.size = Beverage.Size.TALL;
+            displayBeverage(beverage3);
+
+            beverage3 = new Soy(beverage3);
+            beverage3 = new Mocha(beverage3);
+            beverage3 = new Whip(beverage3);
+            displayBeverage(beverage3);
+
+            beverage3 = new HouseBlend();
+            beverage3.size = Beverage.Size.GRANDE;
+            beverage3 = new Soy(beverage3);
+            beverage3 = new Mocha(beverage3);
+            beverage3 = new Whip(beverage3);
+            displayBeverage(beverage3);
+
+            beverage3 = new HouseBlend();
             beverage3.size = Beverage.Size.VENTI;
             beverage3 = new Soy(beverage3);
             beverage3 = new Mocha(beverage3);

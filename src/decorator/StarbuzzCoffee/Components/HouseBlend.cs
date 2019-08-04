@@ -14,6 +14,6 @@ namespace StarbuzzCoffee.Components
             return .89;
         }
 
-        public override Size size { get => base.size; set => base.size = value; }
+        public override Size size { get => base.size; }
     }
 }
