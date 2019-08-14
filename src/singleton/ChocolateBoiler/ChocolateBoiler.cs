@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 
 namespace ChocolateBoiler
 {
@@ -15,6 +16,7 @@ namespace ChocolateBoiler
                     Console.WriteLine("Creating unique instance of Chocolate Boiler");
                     _uniqueInstance = new ChocolateBoiler();
                 }
+                else _uniqueInstance.WriteBoiler(MethodBase.GetCurrentMethod().Name);
 
                 Console.WriteLine("Returning instance of Chocolate Boiler");
                 return _uniqueInstance;
@@ -28,6 +30,7 @@ namespace ChocolateBoiler
         {
             Empty = true;
             Boiled = false;
+            WriteBoiler(MethodBase.GetCurrentMethod().Name);
         }
 
         public void Fill()
@@ -38,15 +41,17 @@ namespace ChocolateBoiler
                 Boiled = false;
                 // fill the boiler with a milk/chocolate mixture
             }
+            WriteBoiler(MethodBase.GetCurrentMethod().Name);
         }
 
         public void Drain()
         {
-            if (!Empty && !Boiled)
+            if (!Empty && Boiled)
             {
                 // drain the boiled milk and chocolate
                 Empty = true;
             }
+            WriteBoiler(MethodBase.GetCurrentMethod().Name);
         }
 
         public void Boil()
@@ -54,8 +59,14 @@ namespace ChocolateBoiler
             if (!Empty && !Boiled)
             {
                 // bring the contents to a boil
-                Boiled = true;
+                Boiled = true;             
             }
+            WriteBoiler(MethodBase.GetCurrentMethod().Name);
+        }
+
+        private void WriteBoiler(string caller)
+        {
+            Console.WriteLine("After: {0,-30} Empty: {1,-10}, Boiled: {2,-10}", caller, Empty, Boiled);
         }
     }
 }
