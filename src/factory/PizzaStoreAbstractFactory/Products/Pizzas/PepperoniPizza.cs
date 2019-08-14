@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using PizzaStoreAbstractFactory.AbstractFactories;
 
 namespace PizzaStoreAbstractFactory.Products.Pizzas
@@ -18,7 +18,6 @@ namespace PizzaStoreAbstractFactory.Products.Pizzas
             Dough = _ingredientFactory.CreateDough();
             Sauce = _ingredientFactory.CreateSauce();
             Cheese = _ingredientFactory.CreateCheese();
-            Veggies = _ingredientFactory.CreateVeggies();
             Pepperoni = _ingredientFactory.CreatePepperoni();
         }
     }
