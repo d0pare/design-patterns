@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Text;
 using PizzaStoreAbstractFactory.Products.Ingredients;
 
@@ -29,7 +29,7 @@ namespace PizzaStoreAbstractFactory.Products.Pizzas
 
         public virtual void Box()
         {
-            Console.WriteLine("Place pizza in official PizzaStore box");
+            Console.WriteLine("Place pizza in official Pizza Store box");
         }
 
         public override string ToString()
