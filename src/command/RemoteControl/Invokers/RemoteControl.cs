@@ -47,7 +47,7 @@ namespace RemoteControl.Invokers
 
             for (int i = 0; i < _onCommands.Length; i++)
             {
-                stringBuilder.Append("[slot " + i + "] " + _onCommands[i].GetType().Name + "    " + _offCommands[i].GetType().Name + "\n");
+                stringBuilder.Append("[slot " + i + "] ".PadRight(9) + _onCommands[i].GetType().Name.PadRight(25) + _offCommands[i].GetType().Name + "\n");
             }
 
             return stringBuilder.ToString();

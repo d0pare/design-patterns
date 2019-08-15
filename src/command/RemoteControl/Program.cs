@@ -19,7 +19,7 @@ namespace RemoteControl
             Light livingRoomLight = new Light("Living Room");
             Light kitchenLight = new Light("Kitchen");
             CeilingFan ceilingFan = new CeilingFan("Living Room");
-            GarageDoor garageDoor = new GarageDoor("");
+            GarageDoor garageDoor = new GarageDoor("Exterior");
             Stereo stereo = new Stereo("Living Room");
 
             LightOnCommand livingRoomLightOn = new LightOnCommand(livingRoomLight);

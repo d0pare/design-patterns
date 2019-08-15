@@ -8,7 +8,7 @@ namespace RemoteControl.Receivers
 
         public Stereo(string location)
         {
-            _location = location;
+            _location = location.PadRight(15);
         }
 
         public void On() => Console.WriteLine(_location + " stereo is on");

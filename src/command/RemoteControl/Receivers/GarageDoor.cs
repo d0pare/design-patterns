@@ -8,7 +8,7 @@ namespace RemoteControl.Receivers
 
         public GarageDoor(string location)
         {
-            _location = location;
+            _location = location.PadRight(15);
         }
 
         public void Up() => Console.WriteLine(_location + " garage Door is Open");

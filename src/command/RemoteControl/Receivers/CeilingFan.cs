@@ -13,7 +13,7 @@ namespace RemoteControl.Receivers
 
         public CeilingFan(string location)
         {
-            _location = location;
+            _location = location.PadRight(15);
         }
 
         public void High()
