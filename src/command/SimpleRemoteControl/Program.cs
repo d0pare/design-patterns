@@ -14,9 +14,13 @@ namespace SimpleRemoteControl
             var garageDoor = new GarageDoor();
 
             var lightOn = new LightOnCommand(light);
+            var lightOff = new LightOffCommand(light);
             var garageOpen = new GarageDoorOpenCommand(garageDoor);
 
             remote.SetCommand(lightOn);
+            remote.ButtonWasPressed();
+
+            remote.SetCommand(lightOff);
             remote.ButtonWasPressed();
 
             remote.SetCommand(garageOpen);
