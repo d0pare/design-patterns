@@ -9,8 +9,9 @@ namespace RemoteControl
         const int LIVING_ROOM = 0;
         const int KITCHEN_LIGHT = 1;
         const int CEILING_FAN = 2;
-        const int STEREO = 3;
-        const int GARAGE_DOOR = 4;
+        const int STEREO_CD = 3;
+        const int STEREO_DVD = 4;
+        const int GARAGE_DOOR = 5;
 
         public static void Main(string[] args)
         {
@@ -34,12 +35,14 @@ namespace RemoteControl
             GarageDoorDownCommand garageDoorDown = new GarageDoorDownCommand(garageDoor);
 
             StereoOnWithCDCommand stereoOnWithCD = new StereoOnWithCDCommand(stereo);
+            StereoOnWithDVDCommand stereoOnWithDVD = new StereoOnWithDVDCommand(stereo);
             StereoOffCommand stereoOff = new StereoOffCommand(stereo);
 
             remoteControl.SetCommand(LIVING_ROOM, livingRoomLightOn, livingRoomLightOff);
             remoteControl.SetCommand(KITCHEN_LIGHT, kitchenLightOn, kitchenLightOff);
             remoteControl.SetCommand(CEILING_FAN, ceilingFanOn, ceilingFanOff);
-            remoteControl.SetCommand(STEREO, stereoOnWithCD, stereoOff);
+            remoteControl.SetCommand(STEREO_CD, stereoOnWithCD, stereoOff);
+            remoteControl.SetCommand(STEREO_DVD, stereoOnWithDVD, stereoOff);
             remoteControl.SetCommand(GARAGE_DOOR, garageDoorUp, garageDoorDown);
 
             Console.WriteLine(remoteControl);
@@ -50,8 +53,10 @@ namespace RemoteControl
             remoteControl.OffButtonWasPushed(KITCHEN_LIGHT);
             remoteControl.OnButtonWasPushed(CEILING_FAN);
             remoteControl.OffButtonWasPushed(CEILING_FAN);
-            remoteControl.OnButtonWasPushed(STEREO);
-            remoteControl.OffButtonWasPushed(STEREO);
+            remoteControl.OnButtonWasPushed(STEREO_CD);
+            remoteControl.OffButtonWasPushed(STEREO_CD);
+            remoteControl.OnButtonWasPushed(STEREO_DVD);
+            remoteControl.OffButtonWasPushed(STEREO_DVD);
             remoteControl.OnButtonWasPushed(GARAGE_DOOR);
             remoteControl.OffButtonWasPushed(GARAGE_DOOR);
 
