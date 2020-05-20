@@ -1,0 +1,280 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Adapter - Ducks",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-adapter-ducks",
+            "program": "${workspaceRoot}/src/adapter/Ducks/bin/Debug/netcoreapp3.1/Ducks.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Combined - DuckSimulator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-combined-ducksimulator",
+            "program": "${workspaceRoot}/src/combined/DuckSimulator/bin/Debug/netcoreapp3.1/DuckSimulator.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Command - Party",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-command-party",
+            "program": "${workspaceRoot}/src/command/Party/bin/Debug/netcoreapp3.1/Party.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Command - RemoteControl",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-command-remotecontrol",
+            "program": "${workspaceRoot}/src/command/RemoteControl/bin/Debug/netcoreapp3.1/RemoteControl.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Command - RemoteControlWithUndo",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-command-remotecontrolwithundo",
+            "program": "${workspaceRoot}/src/command/RemoteControlWithUndo/bin/Debug/netcoreapp3.1/RemoteControlWithUndo.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Command - SimpleRemoteControl",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-command-simpleremotecontrol",
+            "program": "${workspaceRoot}/src/command/SimpleRemoteControl/bin/Debug/netcoreapp3.1/SimpleRemoteControl.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Composite - Menu",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-composite-menu",
+            "program": "${workspaceRoot}/src/composite/Menu/bin/Debug/netcoreapp3.1/Menu.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Composite - MenuIterator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-composite-menuiterator",
+            "program": "${workspaceRoot}/src/composite/MenuIterator/bin/Debug/netcoreapp3.1/MenuIterator.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Decorator - StarbuzzCoffee",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-decorator-starbuzzcoffee",
+            "program": "${workspaceRoot}/src/decorator/StarbuzzCoffee/bin/Debug/netcoreapp3.1/StarbuzzCoffee.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Facade - HomeTheater",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-facade-hometheater",
+            "program": "${workspaceRoot}/src/facade/HomeTheater/bin/Debug/netcoreapp3.1/HomeTheater.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Factory - PizzaStoreAbstractFactory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-factory-pizzastoreabstractfactory",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreAbstractFactory/bin/Debug/netcoreapp3.1/PizzaStoreAbstractFactory.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Factory - PizzaStoreFactoryMethod",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-factory-pizzastorefactorymethod",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreFactoryMethod/bin/Debug/netcoreapp3.1/PizzaStoreFactoryMethod.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Factory - PizzaStoreSimpleFactory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-factory-pizzastoresimplefactory",
+            "program": "${workspaceRoot}/src/factory/PizzaStoreSimpleFactory/bin/Debug/netcoreapp3.1/PizzaStoreSimpleFactory.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Iterator - DinerMerger",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-iterator-dinermerger",
+            "program": "${workspaceRoot}/src/iterator/DinerMerger/bin/Debug/netcoreapp3.1/DinerMerger.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Iterator - DinerMergerCafe",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-iterator-dinermergercafe",
+            "program": "${workspaceRoot}/src/iterator/DinerMergerCafe/bin/Debug/netcoreapp3.1/DinerMergerCafe.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Observer - WeatherStation",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-observer-weatherstation",
+            "program": "${workspaceRoot}/src/observer/WeatherStation/bin/Debug/netcoreapp3.1/WeatherStation.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Observer - WeatherStation.Observable",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-observer-weatherstation.observable",
+            "program": "${workspaceRoot}/src/observer/WeatherStation.Observable/bin/Debug/netcoreapp3.1/WeatherStation.Observable.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Singleton - ChocolateBoiler",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-singleton-chocolateboiler",
+            "program": "${workspaceRoot}/src/singleton/ChocolateBoiler/bin/Debug/netcoreapp3.1/ChocolateBoiler.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Singleton - MultipleSingleton",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-singleton-multiplesingleton",
+            "program": "${workspaceRoot}/src/singleton/MultipleSingleton/bin/Debug/netcoreapp3.1/MultipleSingleton.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "State - Gumball",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-state-gumball",
+            "program": "${workspaceRoot}/src/state/Gumball/bin/Debug/netcoreapp3.1/Gumball.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "State - GumballState",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-state-gumballstate",
+            "program": "${workspaceRoot}/src/state/GumballState/bin/Debug/netcoreapp3.1/GumballState.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "State - GumballStateWinner",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-state-gumballstatewinner",
+            "program": "${workspaceRoot}/src/state/GumballStateWinner/bin/Debug/netcoreapp3.1/GumballStateWinner.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Strategy - MiniDuckSimulator",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-strategy-miniducksimulator",
+            "program": "${workspaceRoot}/src/strategy/MiniDuckSimulator/bin/Debug/netcoreapp3.1/MiniDuckSimulator.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Template Method - Barista",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-templatemethod-barista",
+            "program": "${workspaceRoot}/src/templatemethod/Barista/bin/Debug/netcoreapp3.1/Barista.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Template Method - DuckSort",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-templatemethod-ducksort",
+            "program": "${workspaceRoot}/src/templatemethod/DuckSort/bin/Debug/netcoreapp3.1/DuckSort.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "version": "2.0.0",
+    "command": "dotnet",
+    "args": [],
+    "tasks": [
+        {
+            "label": "build-adapter-ducks",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/adapter/Ducks/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-combined-ducksimulator",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/combined/DuckSimulator/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-command-party",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/command/Party/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-command-remotecontrol",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/command/RemoteControl/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-command-remotecontrolwithundo",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/command/RemoteControlWithUndo/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-command-simpleremotecontrol",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/command/SimpleRemoteControl/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-composite-menu",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/composite/Menu/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-composite-menuiterator",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/composite/MenuIterator/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-decorator-starbuzzcoffee",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/decorator/StarbuzzCofee/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-facade-hometheater",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/facade/HomeTheater/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-factory-pizzastoreabstractfactory",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/factory/PizzaStoreAbstractFactory/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-factory-pizzastorefactorymethod",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/factory/PizzaStoreFactoryMethod/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-factory-pizzastoresimplefactory",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/factory/PizzaStoreSimpleFactory/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-iterator-dinermerger",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/iterator/DinerMerger/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-iterator-dinermergercafe",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/iterator/DinerMergerCafe/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-observer-weatherstation",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/observer/WeatherStation/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-observer-weatherstation.observable",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/observer/WeatherStation.Observable/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-singleton-chocolateboiler",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/singleton/ChocolateBoiler/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-singleton-multiplesingleton",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/singleton/MultipleSingleton/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-state-gumball",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/state/Gumball/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-state-gumballstate",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/state/GumballState/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-state-gumballstatewinner",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/state/GumballStateWinner/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-strategy-miniducksimulator",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/strategy/MiniDuckSimulator/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-templatemethod-barista",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/templatemethod/Barista/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-templatemethod-ducksort",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "./src/templatemethod/DuckSort/",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
