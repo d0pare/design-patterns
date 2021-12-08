@@ -32,4 +32,4 @@
 
 
 
-**You need [.NET Core 3.1](https://www.dot.net) to run these examples.**
+**You need [.NET 6](https://www.dot.net) to run these examples.**
