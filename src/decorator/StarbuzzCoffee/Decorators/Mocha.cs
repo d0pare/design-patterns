@@ -1,22 +1,21 @@
-using StarbuzzCoffee.Components;
-using StarbuzzCoffee.Decorators;
+using StarbuzzCoffee.Components.Abstractions;
 
 namespace StarbuzzCoffee.Decorators
 {
-    public class Mocha : CondimentDecorator
+    public class Mocha : ICondimentDecorator
     {
-        private readonly Beverage _beverage;
+        public IBeverage BeverageComponent { get; set; }
 
-        public Mocha(Beverage beverage)
+        public string Description { get => $"{BeverageComponent.Description}, Mocha"; }
+
+        public Mocha(IBeverage beverage)
         {
-            _beverage = beverage;
+            BeverageComponent = beverage;
         }
 
-        public override string Description => _beverage.Description + ", Mocha";
-
-        public override double Cost()
+        public double Cost()
         {
-            return .20 + _beverage.Cost();
+            return .20 + BeverageComponent.Cost();
         }
     }
 }

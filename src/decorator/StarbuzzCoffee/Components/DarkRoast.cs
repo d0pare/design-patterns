@@ -1,17 +1,19 @@
-using StarbuzzCoffee.Components;
+using StarbuzzCoffee.Components.Abstractions;
 
 namespace StarbuzzCoffee.Components
 {
-    public class DarkRoast : Beverage
+    public class DarkRoast : IBeverage
     {
+        public string Description { get; set; }
+
         public DarkRoast()
         {
             Description = "Dark Roast Coffee";
-        }
+        }     
 
-        public override double Cost()
+        public double Cost()
         {
-            return .99;
+            return 0.99;
         }
     }
 }
