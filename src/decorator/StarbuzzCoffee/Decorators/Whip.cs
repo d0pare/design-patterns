@@ -1,22 +1,21 @@
-using StarbuzzCoffee.Components;
-using StarbuzzCoffee.Decorators;
+using StarbuzzCoffee.Components.Abstractions;
 
 namespace StarbuzzCoffee.Decorators
 {
-    public class Whip : CondimentDecorator
+    public class Whip : ICondimentDecorator
     {
-        private readonly Beverage _beverage;
-        
-        public Whip(Beverage beverage)
+        public IBeverage BeverageComponent { get; set; }
+
+        public string Description { get => $"{BeverageComponent.Description}, Whip"; }
+
+        public Whip(IBeverage beverage)
         {
-            _beverage = beverage;
+            BeverageComponent = beverage;
         }
 
-        public override double Cost()
+        public double Cost()
         {
-            return .10 + _beverage.Cost();
+            return BeverageComponent.Cost() + 0.10;
         }
-
-        public override string Description => _beverage.Description + ", Whip";
     }
 }
